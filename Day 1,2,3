@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class WelcomeClassExample {
+
+	public static void main(String[] args) {
+		System.out.println("The movie quote is: My name is Bond. James Bond!");
+		
+		char number = '6';
+		System.out.println(number);
+		
+		int age = 10, height = 5;
+		double radius = 2.34, area = 4.55;
+		
+		System.out.println("age = " + age);
+		System.out.println("height = " + height);
+		System.out.println("radius = " + radius);
+		System.out.println("area = " + area);
+    
+    int int_number = 3300;
+		float float_number = 40.3165f;
+		double double_number = 0.0000000000051435553;
+		char char_name = 'B';
+		boolean bool_accept = true;
+
+		System.out.println("Value of Int is: " + int_number);
+		System.out.println("Value of Float is: " + float_number);
+		System.out.println("Value of Double is " + double_number);
+		System.out.println("Value of Char is " + char_name);
+		System.out.println("Value of Bool is "+ bool_accept);
+		
+		Scanner UserName = new Scanner(System.in);
+		System.out.println("Please enter your name: ");
+		String Name = UserName.nextLine();
+		System.out.println("Your name is: " + Name);
+		
+		// DOB is an abbreviation for Date Of Birth.
+		
+		Scanner UserDOB = new Scanner(System.in);
+		System.out.println("Please enter your date of birth: ");
+		String DOB = UserDOB.nextLine();
+		System.out.println("Your date of birth is: " + DOB);
+		
+		// POB is an abbreviation for Place Of Birth.
+		// practice typing scanner
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System,in);
+	  // Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+		// Scanner POB = new Scanner(System.in);
+    
+    Scanner UserPOB = new Scanner(System.in);
+		System.out.println("Please enter the place of your birth: ");
+		String POB = UserPOB.nextLine();
+		System.out.println("Your place of birth is: " + POB);
+		
+		// Summary
+		System.out.println("Hello " + Name + "! You were born on " + DOB + " in " + POB + ".");
+		
+	}
+}
